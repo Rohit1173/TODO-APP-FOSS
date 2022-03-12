@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/naape/TODO-APP-FOSS/app/src/main/res/layout-land/activity_main.xml" value="0.15211640211640212" />
+        <entry key="..\:/Users/naape/TODO-APP-FOSS/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
         <entry key="..\:/Users/sairo/Downloads/TODO-APP/TODO-APP/app/src/main/res/layout-land/activity_main.xml" value="0.1703125" />
         <entry key="..\:/Users/sairo/Downloads/TODO-APP/TODO-APP/app/src/main/res/layout/activity_main.xml" value="0.1480978260869565" />
         <entry key="..\:/Users/sairo/Downloads/TODO-APP/TODO-APP/app/src/main/res/layout/card.xml" value="0.23125" />
@@ -12,7 +14,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
