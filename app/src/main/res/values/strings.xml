@@ -2,4 +2,7 @@
     <string name="app_name">TODO 2.0</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="match_parent">match_parent</string>
+    <string name="parent">parent</string>
+    <string name="wrap_content">wrap_content</string>
 </resources>

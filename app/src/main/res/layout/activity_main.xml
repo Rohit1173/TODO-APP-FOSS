@@ -3,47 +3,47 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="@string/match_parent"
+    android:layout_height="@string/match_parent"
     android:background="#44d49a"
     tools:context=".MainActivity">
 
 
     <ImageView
         android:id="@+id/my_img"
-        android:layout_width="match_parent"
+        android:layout_width="@string/match_parent"
         android:layout_height="120dp"
         android:src="@drawable/img"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="@string/parent"
+        app:layout_constraintRight_toRightOf="@string/parent"
+        app:layout_constraintTop_toTopOf="@string/parent"
         app:layout_constraintBottom_toTopOf="@+id/recycler"
         android:scaleX="3" />
     <TextView
         android:id="@+id/text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@string/wrap_content"
+        android:layout_height="@string/wrap_content"
         android:text="WORKS TO DO"
         android:textSize="50dp"
         android:layout_marginTop="30dp"
         android:fontFamily="@font/spot_normal"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/recycler"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@string/parent"
+        app:layout_constraintStart_toStartOf="@string/parent"
         android:textColor="#2a3b37"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@string/parent" />
 
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler"
-        android:layout_width="match_parent"
+        android:layout_width="@string/match_parent"
         android:layout_height="720dp"
         android:scrollbars="vertical"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@string/parent"
+        app:layout_constraintRight_toRightOf="@string/parent"
+        app:layout_constraintBottom_toBottomOf="@string/parent"
         tools:listitem="@layout/card">
 
 
@@ -51,12 +51,12 @@
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/add"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@string/wrap_content"
+        android:layout_height="@string/wrap_content"
         android:clickable="true"
         android:src="@drawable/ic_baseline_add_24"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="@string/parent"
+        app:layout_constraintBottom_toBottomOf="@string/parent"
         android:layout_marginBottom="10dp"
         android:layout_marginRight="10dp"
          />
