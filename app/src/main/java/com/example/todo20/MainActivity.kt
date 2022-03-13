@@ -58,8 +58,6 @@ class MainActivity : AppCompatActivity() {
             ): Boolean {
                 val sp =viewHolder.adapterPosition
                 val tp = target.adapterPosition
-                val sp_w:String=list!![sp].work
-                val tp_w:String=list!![tp].work
                 Collections.swap(list,sp,tp)
                 myadapter.notifyItemMoved(sp,tp)
                 return true
@@ -124,11 +122,7 @@ class MainActivity : AppCompatActivity() {
 
 
     }
-
-    fun View.hidekeyboard() {
-        val inputManager = context.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
-        inputManager.hideSoftInputFromWindow(windowToken, 0)
-    }
+    
 
 
 }

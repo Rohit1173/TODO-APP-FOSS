@@ -9,5 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="edit">#0d6e0d</color>
     <color name="delete">#FF0000</color>
+    <color name="pale_blue">#84aad1</color>
 
 </resources>

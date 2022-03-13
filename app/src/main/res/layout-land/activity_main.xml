@@ -8,6 +8,7 @@
     >
 
     <ImageView
+        android:id="@+id/my_img"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -20,7 +21,7 @@
     <TextView
         android:layout_width="140dp"
         android:layout_height="300dp"
-        android:text="WORKS TO DO"
+        android:text="@string/works_to_do"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/recycler1"
