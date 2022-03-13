@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <dimen name="relative_layout_width">300dp</dimen>
+    <dimen name="relative_layout_height">300dp</dimen>
+    <dimen name="edit_text_layout_margin_top">40dp</dimen>
+    <dimen name="button_layout_margin_left">100dp</dimen>
+    <dimen name="button_layout_margin_top">63dp</dimen>
+
+
+
 </resources>
