@@ -5,6 +5,7 @@ import android.graphics.Canvas
 import android.os.Bundle
 import android.view.View
 import android.view.inputmethod.InputMethodManager
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.FragmentManager
@@ -38,7 +39,9 @@ class MainActivity : AppCompatActivity() {
 
            }
 
-
+           var datetime= findViewById<TextView>(R.id.date_time)
+           var timenow = Calendar.getInstance().time
+            datetime.setText(timenow.toString())
 
         recycler.setHasFixedSize(true)
 
