@@ -3,4 +3,6 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="works_to_do">WORKS TO DO</string>
+    <string name="add">Adding New Work</string>
+    <string name="add1">Adding New Work in land</string>
 </resources>
