@@ -15,8 +15,6 @@ class todoadapter(private var items: MutableList<word>) :
 
     class ViewHolder(private val view: View) : RecyclerView.ViewHolder(view) {
         val txt: TextView = view.findViewById(R.id.txt)
-        val card: CardView = view.findViewById(R.id.card)
-        val context = view.context
 
     }
 
